@@ -5,7 +5,7 @@ package main
 import (
 	"bufio"
 	"fmt"
-	convlib "gopl.exercise/2.2"
+	convlib "gopl.exercise/ch2/2.2"
 	"os"
 	"regexp"
 	"strconv"

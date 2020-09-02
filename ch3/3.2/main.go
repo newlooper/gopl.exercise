@@ -1,4 +1,3 @@
-// ex3.2 prints an SVG rendering of an eggbox or saddle.
 package main
 
 import (

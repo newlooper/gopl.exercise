@@ -2,7 +2,7 @@
 
 package main
 
-import popcount "gopl.exercise/2.4"
+import popcount "gopl.exercise/ch2/2.4"
 
 func main() {
 	println(popcount.PopCountExpr(64))
