@@ -53,7 +53,7 @@ func main() {
 	}
 
 	table := tablewriter.NewWriter(os.Stdout)
-	table.SetHeader([]string{"count", "category"})
+	table.SetHeader([]string{"category", "count"})
 	for cat, n := range cats {
 		table.Append([]string{cat, strconv.Itoa(n)})
 	}
